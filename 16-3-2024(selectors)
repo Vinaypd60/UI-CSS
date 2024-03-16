@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Documentation</title>
+        <style>
+            section p:first-child{
+                color: blueviolet;
+            }
+            ul li:last-child{
+                color: blue;
+            }
+            ul li:first-child{
+                color:darkred;
+            }
+            ul li:nth-child(3){
+                color:maroon;
+            }
+            ul li:nth-child(2){
+                color: yellowgreen;
+            }
+            div{
+                background-color:chocolate;
+                padding: 20px;
+                border: 2px solid chocolate;
+            }
+            div:hover{
+                background-color: blue;
+                color: white;
+
+            }
+            input:focus{
+                background-color:cornflowerblue;
+                color: whitesmoke;
+            }
+            button:disabled{
+                color: red;
+            }
+            button:enabled{
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Vinay</li>
+            <li>Devi</li>
+            <li>Srinivas</li>
+            <li>Mounika</li>
+        </ul>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolor ipsam dolores? Accusantium facere, ducimus quae earum voluptate itaque? Autem quam, facere provident vel voluptate eos qui deleniti temporibus ex nostrum adipisci sunt corrupti possimus rerum officiis dolore nisi nobis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora a illum adipisci provident harum voluptatem enim minus quo natus? Dicta labore nobis magnam unde, quis eligendi, quidem nesciunt exercitationem a temporibus iure iusto corporis tenetur qui expedita, aspernatur maiores nihil error reiciendis minus pariatur. Esse, iure nulla, autem minima incidunt quidem ab optio consequatur libero similique laudantium assumenda quae perferendis culpa possimus placeat, qui voluptates? Eos saepe modi necessitatibus? Facere?</p>
+
+        </section>
+        <button>Enabled</button>
+        <br />
+        <br />
+        <button disabled>disabled</button>
+        <br />
+        <br />
+        <input type="text" placeholder="Username" /> <br /><br />
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempore blanditiis repudiandae pariatur voluptates nihil veritatis culpa omnis iste eum maxime quasi facere atque obcaecati adipisci saepe, magnam placeat perferendis dolore, libero voluptatem. Enim suscipit quo maxime voluptatum saepe, odio, fuga nisi nam laudantium sapiente consequuntur aspernatur commodi repellat, deleniti a? Eveniet sit soluta nisi, odit, magni odio assumenda veniam a culpa suscipit quidem adipisci molestias. Recusandae doloribus repudiandae fugit molestias modi culpa eos possimus ullam, sint, consequatur neque eligendi.
+        </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            @keyframes myanimation {
+            from{
+                  background-color: green;
+                  width: 200px;
+                  height: 200px;
+                }
+            to {
+                  background-color:blue;
+                  width: 800px;
+                  height: 400px;
+               }
+            }
+
+            #container{
+                width: 800px;
+                height: 400px;
+                box-shadow: 0 0 10px yellowgreen;
+                margin: 50px auto;
+                animation-name: myanimation;
+                animation-duration: 10s;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+    </body>
+</html>

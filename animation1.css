@@ -1,0 +1,53 @@
+
+@keyframes Divanimation{
+    0%{
+        background-color: mediumseagreen;
+        background-image: url("https://th.bing.com/th/id/OIP.WekPt8MF04mBuQvtjXZ0MAHaE7?rs=1&pid=ImgDetMain");
+        background-position: center;
+        background-size: 1100px 400px;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-color: indianred;
+        background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/young-woman-shopping-isolated-on-white-background_HarwcTr4Fg_SB_PM.jpg");
+        background-position: center;
+        background-size: 1100px 400px;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-color: darkslategray;
+        background-image: url("https://th.bing.com/th/id/R.314a9d3f671763630133ed9db0e25d46?rik=7QaCNEIJT3j8uw&riu=http%3a%2f%2fwomenpla.net%2fwp-content%2fuploads%2f2013%2f07%2fwomen_shopping_trends.jpg&ehk=LvNnObLU7UKqMOJbaHBvZ4RKS5Yi%2fxpaxWfWS88CEYg%3d&risl=&pid=ImgRaw&r=0");
+        background-position: center;
+        background-size: 1100px 400px;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-color: darkslateblue;
+        background-image: url("https://th.bing.com/th/id/R.ba8d8f246873106e2897980154980754?rik=tKKjBopeZZ5%2bTQ&riu=http%3a%2f%2fwww.v3wall.com%2fwallpaper%2f1440_900%2f1010%2f1440_900_20101027082953259747.jpg&ehk=GkclJWSJPvnV1MCh6nBx4dmisqrGB96Wfm37VAqikhY%3d&risl=&pid=ImgRaw&r=0https://images4.alphacoders.com/108/thumb-1920-1082550.jpg");
+        background-position: center;
+        background-size: 1100px 400px;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-color: crimson;
+        background-image: url("https://images4.alphacoders.com/108/thumb-1920-1082550.jpg");
+        background-position: center;
+        background-size: 1100px 400px;
+        background-repeat: no-repeat;
+    }
+}
+.container{
+    width: 1100px;
+    height: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px black;
+    background-color:chocolate;
+    animation-name: Divanimation;
+    animation-duration:25s ;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+   
+    
+}
